@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5362c-650d-423f-9247-992a246b0f1b" name="Changes" comment="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기">
+    <list default="true" id="98d5362c-650d-423f-9247-992a246b0f1b" name="Changes" comment="별명 설정해주기!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/TestBean3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +98,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680058674286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="별명 설정해주기!">
+      <created>1680058963796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680058963796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기" />
-    <option name="LAST_COMMIT_MESSAGE" value="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기" />
+    <MESSAGE value="별명 설정해주기!" />
+    <option name="LAST_COMMIT_MESSAGE" value="별명 설정해주기!" />
   </component>
 </project>

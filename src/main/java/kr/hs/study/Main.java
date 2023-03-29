@@ -2,6 +2,7 @@ package kr.hs.study;
 
 import kr.hs.study.beans.TestBean1;
 import kr.hs.study.beans.TestBean2;
+import kr.hs.study.beans.TestBean3;
 import kr.hs.study.config.BeanConfigClass;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -22,6 +23,8 @@ public class Main {
 //        obj2.pr_Method();
         TestBean2 obj3 = ctx2.getBean("a", TestBean2.class);
         obj3.pr_Method();
+        TestBean3 obj4 = ctx2.getBean("java3", TestBean3.class);
+        obj4.pr_Method2();
 
         ctx2.close();
     }
