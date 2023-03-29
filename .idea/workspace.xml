@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5362c-650d-423f-9247-992a246b0f1b" name="Changes" comment="TestBean3로 getBean()할 때 객체 생성 해서 메서드 호출&#10;- xml : lazy-init = true&#10;- java = @Lazy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" afterDir="false" />
+    <list default="true" id="98d5362c-650d-423f-9247-992a246b0f1b" name="Changes" comment="Scope(&quot;prototype&quot;) 을 활용해서 주소값 다르게 출력하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/TestBean4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,13 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680059450037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Scope(&quot;prototype&quot;) 을 활용해서 주소값 다르게 출력하기">
+      <created>1680059807679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680059807679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기" />
     <MESSAGE value="별명 설정해주기!" />
     <MESSAGE value="TestBean3로 getBean()할 때 객체 생성 해서 메서드 호출&#10;- xml : lazy-init = true&#10;- java = @Lazy" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestBean3로 getBean()할 때 객체 생성 해서 메서드 호출&#10;- xml : lazy-init = true&#10;- java = @Lazy" />
+    <MESSAGE value="Scope(&quot;prototype&quot;) 을 활용해서 주소값 다르게 출력하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scope(&quot;prototype&quot;) 을 활용해서 주소값 다르게 출력하기" />
   </component>
 </project>
