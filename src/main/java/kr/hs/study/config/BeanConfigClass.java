@@ -15,7 +15,7 @@ public class BeanConfigClass {
         TestBean1 t = new TestBean1();
         return t;
     }
-    @Bean   //각각 Bean을 붙이기!
+    @Bean(name = "a")   //각각 Bean을 붙이기!
     public TestBean2 java2(){
         TestBean2 t2 = new TestBean2();
         return t2;

@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5362c-650d-423f-9247-992a246b0f1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/TestBean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/TestBean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
+    <list default="true" id="98d5362c-650d-423f-9247-992a246b0f1b" name="Changes" comment="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/config/BeanConfigClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8bce97ce-da7f-4d5a-be65-2980ee748125" />
+        <option name="url" value="https://github.com/chaeyoung1027/JavaConfiguration.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,6 +89,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679986440335</updated>
     </task>
+    <task id="LOCAL-00001" summary="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기">
+      <created>1680058674286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680058674286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanConfigClass java설정으로 객체 만들어서 메서드 호출해보기" />
   </component>
 </project>

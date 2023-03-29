@@ -10,15 +10,18 @@ public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("config.xml");
 
-        TestBean1 obj1 = ctx.getBean("t1", TestBean1.class);
-        System.out.println("data1 : "+obj1.getData1());
+//        TestBean1 obj1 = ctx.getBean("t1", TestBean1.class);
+//        System.out.println("data1 : "+obj1.getData1());
 
         ctx.close();
         System.out.println("=========================================================");
 
         AnnotationConfigApplicationContext ctx2 = new AnnotationConfigApplicationContext(BeanConfigClass.class);
-        TestBean1 obj2 = ctx2.getBean("java1", TestBean1.class);
-        TestBean2 obj3 = ctx2.getBean("java2", TestBean2.class);
+        TestBean1 obj1 = ctx2.getBean("java1", TestBean1.class);
+//        TestBean2 obj2 = ctx2.getBean("java2", TestBean2.class);  //이름을 a로 바꿨기 때문에 존재하지 않는다고 에러가 난다.
+//        obj2.pr_Method();
+        TestBean2 obj3 = ctx2.getBean("a", TestBean2.class);
+        obj3.pr_Method();
 
         ctx2.close();
     }
