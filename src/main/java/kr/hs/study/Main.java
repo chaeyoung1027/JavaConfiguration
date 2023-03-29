@@ -23,8 +23,12 @@ public class Main {
 //        obj2.pr_Method();
         TestBean2 obj3 = ctx2.getBean("a", TestBean2.class);
         obj3.pr_Method();
-        TestBean3 obj4 = ctx2.getBean("java3", TestBean3.class);
-        obj4.pr_Method2();
+        System.out.println("obj3 : "+obj3);
+//        TestBean3 obj4 = ctx2.getBean("java3", TestBean3.class);
+//        obj4.pr_Method2();
+
+        TestBean2 obj5 = ctx2.getBean("a", TestBean2.class);
+        System.out.println("obj5 : "+obj5);
 
         ctx2.close();
     }

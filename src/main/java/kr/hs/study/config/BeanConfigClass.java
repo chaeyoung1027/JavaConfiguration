@@ -7,6 +7,7 @@ import kr.hs.study.beans.TestBean3;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Scope;
 
 //이 파일은 객체 만들어줘! 라고 스프링에게 요청하는 설정파일
 @Configuration
@@ -18,6 +19,7 @@ public class BeanConfigClass {
         return t;
     }
     @Bean(name = "a")   //각각 Bean을 붙이기!
+    @Scope("prototype")
     public TestBean2 java2(){
         TestBean2 t2 = new TestBean2();
         return t2;

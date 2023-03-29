@@ -13,7 +13,7 @@
     <bean id = "t1" class = "kr.hs.study.beans.TestBean1">
         <property name="data1" value="10"/>
     </bean>
-    <bean id = "t2" class = "kr.hs.study.beans.TestBean2"></bean>
+    <bean id = "t2" class = "kr.hs.study.beans.TestBean2" scope="prototype"></bean>
     <bean id = "t3" class = "kr.hs.study.beans.TestBean3" lazy-init="true"/>
 
 
